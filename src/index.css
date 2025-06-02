@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navbar
+{
+    color:#601221;
+    font-size:13px;
+    text-decoration:none;
+}
+
+.hamburger
+{
+    font-size:24px;
+}
+
+.part-2-text
+{
+    margin-left:90px;
+}
+
+@media(max-width:768px){
+    .part-2-text
+    {
+        margin-left:0px;
+    }
+}
+
+/*  abour part 2 */
+
+.text-content
+{
+    font-size:38px;
+    font:'Forum', sans-serif;
+    line-height:2;
+}
+
+.text-content-para
+{
+    font-size:17px;
+     font:'Forum', sans-serif;
+    font-style:italic;
+}
+
+
+
+/* marquee */
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-10%);
+  }
+}
+
+.marquee {
+  animation: scroll 10s linear infinite;
+}
+
